@@ -1,0 +1,106 @@
+.membership-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #1e1e1e;
+    color: white;
+  }
+  
+  .membership-subtitle {
+    color: #d0ff00;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .membership-title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .membership-title .highlight {
+    color: #d0ff00;
+  }
+  
+  .membership-description {
+    max-width: 800px;
+    margin: 10px auto 30px;
+    font-size: 16px;
+    opacity: 0.8;
+  }
+  
+  .plans {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .plan-card {
+    background: #2a2a2a;
+    padding: 25px;
+    border-radius: 12px;
+    width: 400px;
+    text-align: left;
+    position: relative;
+  }
+  
+  .plan-card h3 {
+    font-size: 25px;
+  }
+  
+  .plan-card h2 {
+    font-size: 26px;
+    margin-top: 5px;
+  }
+  
+  .plan-card p {
+    font-size: 14px;
+    opacity: 0.8;
+    margin-bottom: 15px;
+  }
+  
+  .plan-card ul {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+  }
+  
+  .plan-card ul li {
+    margin-bottom: 8px;
+  }
+  
+  .get-started {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: transparent;
+    color: #d0ff00;
+    border: 2px solid #d0ff00;
+    font-size: 16px;
+    border-radius: 8px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .get-started:hover {
+    background: #d0ff00;
+    color: black;
+  }
+  
+  .best-offer {
+    border: 2px solid #d0ff00;
+    position: relative;
+  }
+  
+  .ribbon {
+    position: absolute;
+    top: 10px;
+    right: -20px;
+    background: #d0ff00;
+    color: black;
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: bold;
+    transform: rotate(45deg);
+  }

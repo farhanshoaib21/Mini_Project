@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    margin-top: 10rem;
+}
+
+.membership-container {
+    width: 50%;
+    margin: 30px auto;
+    background: #222;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.membership-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #dfff00; /* Neon Yellow-Green */
+}
+
+.plans-divider {
+    height: 2px;
+    background: #444;
+    margin: 20px 0;
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #dfff00;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #dfff00;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    background: #333;
+    border: 1px solid #444;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.plan-options {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.plan-option {
+    border: 1px solid #555;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+    cursor: pointer;
+    text-align: center;
+    background: #222;
+    color: #fff;
+}
+
+.plan-option.selected {
+    border-color: #dfff00;
+    background: #333;
+}
+
+.get-started-btn {
+    width: 100%;
+    padding: 10px;
+    background: #dfff00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.get-started-btn:hover {
+    background: #bccc00;
+}
